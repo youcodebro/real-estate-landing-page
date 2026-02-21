@@ -5,8 +5,8 @@
   # Build command
   command = "npm run build"
   
-  # Directory to publish (Vite builds to 'dist' by default)
-  publish = "dist"
+  # Directory to publish (configured as 'build' in vite.config.ts)
+  publish = "build"
 
 # Node version
 [build.environment]
